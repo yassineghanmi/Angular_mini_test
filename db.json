@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "name": "S23 Ultra",
+      "price": "500",
+      "description": "Dual SIM Card, Qwerty Keyboard, Waterproof, Shockproof, Gaming, Beauty Camera, Gesture control, Face Recognition, SDK available",
+      "id": 1
+    },
+    {
+      "name": "Iphone 14",
+      "price": "999",
+      "description": "Hot Selling Phone i 14 Pro Max original Unlocked GPS Tracking Phone 6.7 inch 16GB+1TB Android Smartphones Phones Mobile",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "name": "Iphone 14",
+      "price": "999",
+      "description": "Hot Selling Phone i 14 Pro Max original Unlocked GPS Tracking Phone 6.7 inch 16GB+1TB Android Smartphones Phones Mobile",
+      "id": 1
+    }
+  ]
+}

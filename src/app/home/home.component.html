@@ -1,0 +1,8 @@
+<fieldset *ngFor="let product of products" class="container mt-5">
+  <legend>{{ product.name }}</legend>
+  <p>Price: {{ product.price }}</p>
+  <button (click)="addToCart(product)">Buy</button>
+  <button (click)="showProductDetails(product)">Details</button>
+</fieldset>
+
+<router-outlet></router-outlet>
